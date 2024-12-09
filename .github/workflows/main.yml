@@ -27,3 +27,7 @@ jobs:
         run: |
           echo "DISCORD_TOKEN=${{ secrets.DISCORD_TOKEN }}" >> $GITHUB_ENV
           python bot.py
+
+      - name: Run Flask app for keep-alive
+        run: |
+          python app.py
