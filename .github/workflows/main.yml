@@ -3,7 +3,7 @@ name: Deploy Discord Bot
 on:
   push:
     branches:
-      - main
+      - main  # mainブランチにプッシュされたときに実行
 
 jobs:
   deploy:
